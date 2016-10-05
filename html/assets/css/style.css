@@ -1,0 +1,188 @@
+/*
+ Table Of Contents
+
+ 1.) Homepage
+ 2.) About Us
+ 3.) Contact Us
+ ===============================================*/
+
+/*
+ 1.) Homepage
+ ----------------------------------------*/
+/*
+ 2.) About Us
+ ----------------------------------------*/
+/*
+ 3.) Contact Us
+ ----------------------------------------*/
+
+/* first banner area start here*/
+.banner {
+	background: url('../images/background.png') no-repeat;
+	background-size: 100% 100%;
+	min-height: 1046px;
+	padding-bottom: 5px;
+}
+.logo {
+
+	left: 50%;
+	margin-left: 0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translate(-50%, -50%)
+}
+
+/* product heading area start here*/
+.product {
+	background-color: #f3f3f0;
+	padding-top: 100px;
+}
+
+.product_area {
+	text-align: center;
+}
+.product_area h1 {
+	font-size: 36px;
+	font-weight: bold;
+	padding-bottom: 60px;
+}
+.product_area ul {
+	list-style-type: none;
+	text-align: center;
+	padding-bottom: 100px;
+}
+.product_area ul li {
+
+	margin-left: 90px;
+}
+.product_area ul li {
+
+	margin-left: 90px;
+	display: inline;
+}
+.product_area ul li a {
+	color: black;
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.product_area ul li a:hover {
+	border-bottom: 5px solid black;
+}
+/* slider area start herte*/
+.slide_area {
+
+}
+.item_list {
+
+}
+
+.item_list ul {
+	list-style-type: none;
+}
+.item_list ul li {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+.item_list ul li h6 {
+	font-size: 32px;
+	font-family: 'Oswald', sans-serif;
+}
+.item_list ul li p {
+	font-size: 16px;
+	font-family: 'lato', sans-serif;
+}
+/* form area start here*/
+
+.search {
+	text-align: center;
+	position: relative;
+}
+.search input[type='text'] {
+	width: 449px;
+	height: 59px;
+	background-color: #f3f3f0;
+	border: none;
+	box-sizing: border-box;
+	margin-right: 200px;
+}
+.serch_icon {
+	background: url('../images/serch.png') no-repeat center left;
+	position: absolute;
+	width: 58px;
+	height: 59px;
+	top: 0px;
+	right: 29%;
+	display: inline-block;
+}
+
+/* BANNER TWO AREA STARTN HERE*/
+
+.banner2 {
+	background: url('../images/line.png') repeat-x;
+	background-size: 100% 345px;
+	padding-top: 100px;
+}
+.profile {
+	padding-bottom: 50px;
+	background-color: yellow;
+}
+.profile img {
+	float: left;
+	margin-top: -50px;
+	margin-left: 50px;
+	margin-right: 50px
+}
+.profile h2 {
+	padding-top: 50px;
+	margin-left: 50px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 61px;
+}
+.profile > p {
+	font-size: 24px;
+	font-family: 'lato', sans-serif;
+}
+.profile span {
+	font-size: 28px;
+	font-family: 'lato bold', sans-serif;
+	font-weight: 400;
+}
+
+/* CONTACT SECTION AREA START HERE*/
+
+.contact_section {
+	background-color: #f3f3f0;
+	margin-top: 90px;
+}
+/* left_section AREA START HERE*/
+.left_section {
+	width: 41%;
+	float: left;
+	padding-top: 65px;
+	padding-bottom: 123px;
+}
+.left_section ul {
+	list-style-type: none;
+}
+.left_section ul li {
+	display: block;
+	font-size: 27px;
+	font-family: 'lato', sans-serif;
+	margin-bottom: 40px;
+}
+.left_section ul li a {
+	color: black;
+}
+
+/* RIGHT SECTION AREA START HERE*/
+
+.right_section {
+	width: 58%;
+	float: right;
+	padding-top: 65px;
+	padding-bottom: 123px;
+}
